@@ -1,0 +1,544 @@
+.navbar-toggler:not(:disabled):not(.disabled) {
+    cursor: pointer;
+    background: none;
+}
+
+#index2 .navbar-light .navbar-toggler {
+    color: #fff;
+    outline: 0;
+}
+
+#index3 .navbar-light .navbar-toggler,
+#index4 .navbar-light .navbar-toggler {
+    color: #fff;
+    outline: 0;
+}
+
+.navbar-light .navbar-toggler {
+    color: #fff;
+    outline: 0;
+}
+
+.navbar-toggler i {
+    font-size: 28px;
+}
+
+
+.nav-bg i {
+    color: #222222;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+@media(max-width:991px) {
+    .navbar-light .navbar-nav .nav-link {
+        margin: 18px;
+        color: #222222;
+        line-height: 0;
+    }
+
+    .nav-bg {
+        padding-left: 12px;
+    }
+
+    .menu-item {
+        background: white;
+        text-align: center;
+        padding: 15px 0;
+    }
+
+    .navbar::after {
+        display: none;
+    }
+
+    .navbar-light .navbar-brand {
+        color: #fff;
+    }
+
+    .navbar-light .navbar-brand:hover {
+        color: #fff;
+    }
+
+    .nav-bg .navbar-brand:hover {
+        color: #222222;
+    }
+
+    .nav-bg .navbar-brand {
+        color: #222222;
+    }
+
+    .over-text {
+        text-align: center;
+        margin-bottom: 45px;
+    }
+
+    .go-down {
+        margin-top: 0;
+    }
+
+    .market-item {
+        border: 0;
+    }
+}
+
+@media(min-width:576px) and (max-width:991px) {
+    .mobile-pt {
+        padding-top: 15px;
+    }
+
+    .main-height,
+    .comment-arrow {
+        display: none;
+    }
+
+    .fop-btm h2 {
+        line-height: 26px;
+        text-align: center;
+    }
+
+    .footer-social i {
+        margin-right: 17px;
+        font-size: 14px;
+    }
+
+    #footer {
+        padding: 55px 0;
+    }
+}
+
+@media(max-width:575px) {
+    .banner-item {
+        padding: 140px 0 210px;
+    }
+
+    .banner-text h2 {
+        font-size: 21px;
+    }
+
+    .banner-text h1 {
+        font-size: 43px;
+    }
+
+    .banner-text p {
+        padding-right: 16px;
+    }
+
+    #overview {
+        padding: 50px 0;
+    }
+
+    .over-text p {
+        padding-right: 0;
+    }
+
+    .om-text p {
+        padding-right: 5px;
+    }
+
+    .over-main {
+        margin-bottom: 30px;
+    }
+
+    .over-height {
+        position: relative;
+        margin-top: 30px;
+    }
+
+    #about {
+        padding: 60px 0;
+    }
+
+    .about-heading {
+        text-align: center;
+    }
+
+    .about-heading h3 {
+        font-size: 32px;
+        padding-right: 25px;
+    }
+
+    .testimonial-item {
+        padding-top: 0;
+    }
+
+    .about-img::after {
+        top: -5px;
+        left: -5px;
+    }
+
+    .about-img::before {
+        bottom: -5px;
+        right: -5px;
+    }
+
+    .about-text h3 {
+        font-size: 21px;
+        padding-top: 35px;
+    }
+
+    .about-text h4 {
+        font-size: 19px;
+    }
+
+    .about-text span {
+        font-size: 14px;
+    }
+
+    .mobile-hide,
+    .comment-arrow {
+        display: none !important;
+    }
+
+    .padding-top2 {
+        padding-top: 35px;
+    }
+
+    .about-icon {
+        text-align: center;
+    }
+
+    .about-icon span {
+        display: block;
+        padding-top: 20px;
+    }
+
+    .about-icon h4 {
+        padding-bottom: 45px;
+        font-size: 25px;
+    }
+
+    .serv-item {
+        padding: 50px 20px 25px;
+    }
+
+    .mobile-no-p {
+        padding-bottom: 0 !important;
+    }
+
+    .mobile-margin,
+    .extra-mar {
+        margin-bottom: 100px;
+    }
+
+    .mobile-pt {
+        padding-top: 15px;
+    }
+
+    #project,
+    #team {
+        padding-top: 70px;
+    }
+
+    #portfolio,
+    #team {
+        padding-bottom: 70px;
+    }
+
+    .portfolioFilter a {
+        margin-right: 7px;
+        padding: 6px 10px;
+        margin-bottom: 25px;
+    }
+
+    .portfolioFilter {
+        padding-bottom: 20px;
+    }
+
+    .team-img img {
+        margin-top: 30px;
+    }
+
+    #work {
+        padding: 90px 0 60px;
+    }
+
+    .hire-table {
+        margin-bottom: 38px;
+    }
+
+    .hire-text h3 {
+        line-height: 44px;
+    }
+
+    .work-item {
+        padding-bottom: 20px;
+    }
+
+    .ncp {
+        padding-top: 45px;
+    }
+
+    #blog {
+        padding: 50px 0;
+    }
+
+    .contact-input {
+        margin-bottom: 0;
+        padding-bottom: 13px;
+    }
+
+    #comment {
+        padding: 60px 0;
+    }
+
+    .testimonial-item p {
+        padding: 20px 0 0;
+    }
+
+    .star i {
+        font-size: 18px;
+    }
+
+    #market {
+        padding: 25px 0;
+    }
+
+    .quote-text h3 {
+        font-size: 19px;
+        text-align: center;
+        padding-bottom: 30px;
+        line-height: 28px;
+    }
+
+    #footer {
+        padding: 50px 0;
+    }
+
+    .links h3 {
+        padding-top: 40px;
+    }
+
+    .footer-logo {
+        padding-bottom: 15px;
+    }
+
+    .fop-btm h2 {
+        line-height: 26px;
+        text-align: center;
+    }
+
+    .footer-social i {
+        margin-right: 17px;
+        font-size: 14px;
+    }
+
+}
+
+@media(min-width:576px) and (max-width:767px) {
+    .banner-item {
+        padding: 145px 0 200px;
+    }
+
+    .banner-text h2 {
+        font-size: 32px;
+    }
+
+    .banner-text h1 {
+        font-size: 68px;
+    }
+
+    .about-text {
+        padding-top: 70px;
+    }
+
+    .about-icon {
+        text-align: center;
+    }
+
+    .about-icon span {
+        padding-top: 16px;
+        display: block;
+        padding-bottom: 7px;
+    }
+
+    .about-icon h4 {
+        font-size: 26px;
+    }
+
+    .padding-top2 {
+        padding-top: 55px;
+    }
+
+    .extra-mar,
+    .mobile-margin {
+        margin-bottom: 95px;
+    }
+
+    .serv-item p {
+        padding: 0 18px 20px;
+    }
+
+    .portfolioFilter a {
+        margin-right: 9px;
+    }
+
+    .team-img img {
+        margin-top: 30px;
+    }
+
+    .hire-table {
+        margin-bottom: 30px;
+    }
+
+    .contact-input {
+        margin-bottom: 0;
+        padding-bottom: 13px;
+    }
+
+    .testimonial-item p {
+        padding: 20px 25px 0;
+    }
+
+    .star i {
+        font-size: 19px;
+    }
+
+    #market {
+        padding: 30px 0;
+    }
+
+    .quote-text h3 {
+        font-size: 26px;
+        text-align: center;
+        padding-bottom: 30px;
+        line-height: 37px;
+    }
+
+    .links h3 {
+        padding-top: 40px;
+    }
+
+    .footer-logo {
+        padding-bottom: 15px;
+    }
+
+}
+
+@media(min-width:768px) and (max-width:991px) {
+    .banner-item {
+        padding: 170px 0 180px;
+    }
+
+    .over-text p {
+        padding: 0 60px 35px;
+    }
+
+    #about {
+        padding: 70px 0;
+    }
+
+    .about-text h3 {
+        padding-top: 65px;
+    }
+
+    .about-icon span {
+        font-size: 17px;
+    }
+
+    .about-icon h4 {
+        font-size: 22px;
+    }
+
+    .padding-top2 {
+        padding-top: 65px;
+    }
+
+    #service {
+        padding: 60px 0;
+    }
+
+    .extra-mar {
+        margin-bottom: 0;
+    }
+
+    .ser-tab-mar {
+        margin-bottom: 95px;
+    }
+
+    .team-img img {
+        margin-top: 30px;
+    }
+
+    .hire-table span {
+        font-size: 17px;
+    }
+
+    #work {
+        padding: 110px 0 60px;
+    }
+
+    #blog {
+        padding: 70px 0;
+    }
+
+    .testimonial-item p {
+        padding: 20px 51px 0;
+    }
+
+    .testimonial-item {
+        padding-top: 15px;
+    }
+
+    #market {
+        padding: 40px 0;
+    }
+
+    .quote-text h3 {
+        font-size: 19px;
+    }
+
+    .links h3 {
+        padding-top: 0;
+    }
+
+    .footer-logo {
+        padding-bottom: 70px;
+    }
+
+    .f-pa-t {
+        padding-top: 45px !important;
+    }
+
+}
+
+@media(min-width:992px) and (max-width:1199px) {
+    .navbar::after {
+        width: 300px;
+    }
+
+    .over-text p {
+        padding-right: 14px;
+    }
+
+    .about-text h4 {
+        padding: 12px 0 23px;
+    }
+
+    .a-p-t {
+        padding-bottom: 25px;
+    }
+
+    .about-text span {
+        font-size: 15px;
+    }
+
+    .cl {
+        left: 50px;
+    }
+
+    .cr {
+        right: 50px;
+    }
+
+    .quote-text h3 {
+        font-size: 20px;
+    }
+
+    .links span {
+        padding: 5px 9px;
+        margin-right: 4px;
+    }
+
+}
